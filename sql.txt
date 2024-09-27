@@ -1,7 +1,0 @@
-
---store vise count and sales--
-select store_id,
-	COUNT(*),
-	SUM(unit_price)
-from Coffee_Shop_Sales
-group by store_id
